@@ -1,0 +1,38 @@
+{
+  "name": "phoenix-project-client",
+  "version": "0.1.0",
+  "description": "피닉스 프로젝트 클라이언트",
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.4.0",
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/pwa": "^2.6.0"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.9",
+    "prettier": "^1.16.4",
+    "sass-loader": "^7.1.0"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prography/phonenix.git"
+  },
+  "contributors": [
+    "Seungjae Park <astro.psj@gmail.com>"
+  ],
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/prography/phonenix/issues"
+  },
+  "homepage": "https://github.com/prography/phonenix#readme",
+  "private": true
+}
