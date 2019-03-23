@@ -14,10 +14,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import './assets/style/vars';
+
 footer {
-  padding: 1.5rem 3rem;
+  padding: 24px 48px;
   background-color: #ff6f61;
   color: white;
+  font-size: 14px;
+
+   @media #{$small-viweport} {
+    padding: 24px;
+  }
 
   .team-name {
     font-weight: 700;

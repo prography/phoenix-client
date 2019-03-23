@@ -3,7 +3,7 @@
     <i class="material-icons">menu</i>
     <span class="logo">Phoenix</span>
     <div class="spacer"></div>
-    <Tabs :items="tags"/>
+    <Tabs class="tabs" :items="tags"/>
     <i class="material-icons">search</i>
   </header>
 </template>
@@ -20,27 +20,47 @@ export default {
   },
   data() {
     return {
-      tags: tags.slice(0, 5)
+      tags: tags.slice(0, 8)
     }
   }
 }
 </script>
 
 <style lang="scss" scoped>
+@import './assets/style/vars';
+
 header {
   display: flex;
-  padding: 0 3rem;
-  height: 5rem;
+  padding: 48px;
   align-items: center;
 
+  @media #{$small-viweport} {
+    padding: 16px;
+    flex-wrap: wrap;
+  }
+
   .logo {
-    margin: 0 3rem;
-    font-size: 2rem;
+    margin: 0 48px;
+    font-size: 24px;
     font-weight: 700;
+
+    @media #{$small-viweport} {
+      margin: 0 16px;
+    }
   }
 
   .spacer {
     flex: 1;
+  }
+
+  .tabs {
+    overflow: hidden;
+
+    @media #{$small-viweport} {
+      order: 1;
+      margin: 24px 0 0;
+      overflow: auto;
+    }
   }
 }
 </style>

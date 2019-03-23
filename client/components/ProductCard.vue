@@ -32,11 +32,11 @@ export default {
 
     h4 {
       margin: 0;
-      font-size: 24px;
+      font-size: 1.5em;
     }
 
     p {
-      font-size: 14px;
+      font-size: 1em;
     }
   }
 }

@@ -19,10 +19,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import './assets/style/vars';
+
 .grid {
   display: grid;
-  margin: 1rem calc(6em + 24px);
-  grid-gap: 1rem;
-  grid-template-columns: repeat(4, calc((100% - 3rem) / 4));
+  margin: 16px 120px;
+  grid-gap: 16px;
+  grid-template-columns: repeat(4, calc((100% - 48px) / 4));
+
+  @media #{$small-viweport} {
+    margin: 16px;
+    grid-template-columns: repeat(2, calc((100% - 16px) / 2));
+  }
 }
 </style>

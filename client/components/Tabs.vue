@@ -1,6 +1,6 @@
 <template>
-  <ul class="tabs">
-    <li v-for="item in items" :key="item.index" class="tab">{{ item }}</li>
+  <ul>
+    <li v-for="item in items" :key="item.index">{{ item }}</li>
   </ul>
 </template>
 
@@ -19,13 +19,15 @@ export default {
 <style lang="scss" scoped>
 ul {
   display: inline;
-  padding: 2rem;
+  margin: 0 48px;
+  padding: 0;
   list-style-type: none;
 
   li {
     display: inline;
-    margin: 1rem;
+    margin: 16px;
     color: grey;
+    font-size: 14px;
 
     &::before {
       content: '#';
