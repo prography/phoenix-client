@@ -18,11 +18,11 @@ export default {
 
 footer {
   padding: 24px 48px;
-  background-color: #ff6f61;
+  background-color: $primary-color;
   color: white;
   font-size: 14px;
 
-   @media #{$small-viweport} {
+  @media #{$small-viweport} {
     padding: 24px;
   }
 

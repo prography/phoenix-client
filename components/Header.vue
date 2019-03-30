@@ -1,7 +1,7 @@
 <template>
   <header>
     <i class="material-icons">menu</i>
-    <span class="logo">Phoenix</span>
+    <Logo class="logo" fontSize="24px"/>
     <div class="spacer"></div>
     <Tabs class="tabs" :items="tags"/>
     <i class="material-icons">search</i>
@@ -9,6 +9,7 @@
 </template>
 
 <script>
+import Logo from '@/components/Logo.vue'
 import Tabs from '@/components/Tabs.vue'
 
 import tags from '@/assets/data/tempTags'
@@ -16,6 +17,7 @@ import tags from '@/assets/data/tempTags'
 export default {
   name: 'Header',
   components: {
+    Logo,
     Tabs
   },
   data() {
@@ -41,8 +43,6 @@ header {
 
   .logo {
     margin: 0 48px;
-    font-size: 24px;
-    font-weight: 700;
 
     @media #{$small-viweport} {
       margin: 0 16px;

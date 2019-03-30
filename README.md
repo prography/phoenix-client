@@ -1,49 +1,22 @@
-#### prography 4th PHOENIX
+# client
 
-# 모았다꾸
+> My superior Nuxt.js project
 
-#### 주제
+## Build Setup
 
-다이어리 꾸미기, 소품(키링, 케이스 등)을 파는 **개인 SNS 마켓을 모아주는 플랫폼**
+``` bash
+# install dependencies
+$ npm install
 
------
+# serve with hot reload at localhost:3000
+$ npm run dev
 
-#### 핵심기능 (구매자)
+# build for production and launch server
+$ npm run build
+$ npm start
 
-- 회원가입 및 로그인
+# generate static project
+$ npm run generate
+```
 
--  모아보기
-
-  + 카테고리
-
-    - 케이스, 키링, 다꾸용품 등
-
-    - 전체보기, 인기순, 최신순, 가격순 (정렬)
-
-  + 검색기능
-
--  상세보기
-
-  - 상품명, 상세정보, 가격, 좋아요개수 등
-  - 후기 및 유사제품 추천
-
-- 공구기능
-
--  결제
-
-- 마이페이지
-
-  - 주문내역
-  - 포인트, 쿠폰
-  - 회원정보 수정
-  - 내가 쓴 글 (QnA, 후기)
-  - 공지사항
-
----------
-
-#### 핵심기능 (판매자)
-
-
-
-추후 업로드 예정입니다.
-
+For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
