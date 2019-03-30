@@ -1,15 +1,19 @@
 <template>
   <footer>
     <span>
-      &copy; 2019
-      <a class="team-name">Phoenix in Prography</a>. All rights reserved.
+      &copy; 2019&nbsp;<a class="team-name"><Logo fontColor="white" fontSize="12px"/>&nbsp;in Prography</a>. All rights reserved.
     </span>
   </footer>
 </template>
 
 <script>
+import Logo from '@/components/Logo.vue'
+
 export default {
-  name: 'Footer'
+  name: 'Footer',
+  components: {
+    Logo
+  }
 }
 </script>
 

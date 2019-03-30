@@ -1,6 +1,6 @@
 <template>
   <main>
-    <Logo class="logo" fontSize="60px"/>
+    <Logo class="logo" fontSize="56px"/>
     <FormCard>
       <h1>Login</h1>
       <Input placeholder="ID"/>
@@ -45,8 +45,8 @@ main {
 
   .logo {
     display: block;
+    margin: 0 auto;
     padding: 64px 0 32px;
-    text-align: center;
   }
 
   .buttons {

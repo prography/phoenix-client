@@ -1,7 +1,7 @@
 <template>
   <header>
     <i class="material-icons">menu</i>
-    <Logo class="logo" fontSize="24px"/>
+    <Logo class="logo"/>
     <div class="spacer"></div>
     <Tabs class="tabs" :items="tags"/>
     <i class="material-icons">search</i>
