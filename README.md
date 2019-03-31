@@ -1,6 +1,6 @@
-# client
+# Phoenix Client
 
-> My superior Nuxt.js project
+> Group Purchase Form Provider Platform for Private Sellers
 
 ## Build Setup
 

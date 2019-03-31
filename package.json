@@ -1,7 +1,7 @@
 {
-  "name": "phoenix-project-client",
+  "name": "phoenix-client",
   "version": "0.1.0",
-  "description": "피닉스 프로젝트 클라이언트",
+  "description": "Group Purchase Form Provider Platform for Private Sellers",
   "dependencies": {
     "cross-env": "^5.2.0",
     "nuxt": "^2.5.1",
@@ -24,15 +24,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/prography/phonenix.git"
+    "url": "git+https://github.com/prography/phoenix-client.git"
   },
-  "contributors": [
-    "Seungjae Park <astro.psj@gmail.com>"
-  ],
+  "author": "Seungjae Park <astro.psj@gmail.com>",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/prography/phonenix/issues"
+    "url": "https://github.com/prography/phoenix-client/issues"
   },
-  "homepage": "https://github.com/prography/phonenix#readme",
+  "homepage": "https://github.com/prography/phoenix-client#readme",
   "private": true
 }
