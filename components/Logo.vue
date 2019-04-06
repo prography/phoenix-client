@@ -17,7 +17,7 @@ export default {
   props: {
     fontColor: {
       type: String,
-      default: 'black'
+      default: '#212121'
     },
     fontSize: {
       type: String,
@@ -26,7 +26,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss" scoped>
-</style>
-

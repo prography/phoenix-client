@@ -4,16 +4,17 @@
 
 <script>
 export default {
-  name: 'FlatButton',
+  name: 'Button',
   props: {
-    text: String
+    text: {
+      type: String,
+      required: true
+    }
   }
 }
 </script>
 
-<style lang="scss" scoped>
-@import './assets/style/vars';
-
+<style lang="less" scoped>
 button {
   margin: 4px;
   padding: 8px;
@@ -25,7 +26,7 @@ button {
   }
 
   &:hover {
-      background-color: darken(#fff, 4);
+    background-color: darken(#fff, 4);
   }
 }
 </style>

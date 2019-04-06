@@ -1,10 +1,12 @@
 <template>
   <article>
-    <h1>Login</h1>
+    <h1>Sign Up</h1>
     <InputText placeholder="Email"/>
     <InputText placeholder="Password"/>
-    <Button text="Create New Accout"/>
-    <Button text="Login"/>
+    <div class="buttons">
+      <Button text="Create an Accout"/>
+      <Button text="or, Login"/>
+    </div>
   </article>
 </template>
 
@@ -20,3 +22,8 @@ export default {
   }
 }
 </script>
+
+<style lang="less" scoped>
+.buttons {
+}
+</style>

@@ -1,31 +1,22 @@
 <template>
   <main>
-    <Header/>
-    <Products :items="products"/>
-    <Footer/>
+    <TheHeader/>
+    <TheFooter/>
   </main>
 </template>
 
 <script>
-import Footer from '@/components/Footer.vue'
-import Header from '@/components/Header.vue'
-import Products from '@/components/Products.vue'
-
-import products from '@/assets/data/tempProducts'
+import TheFooter from '@/components/TheFooter.vue'
+import TheHeader from '@/components/TheHeader.vue'
 
 export default {
   components: {
-    Header,
-    Products,
-    Footer
+    TheHeader,
+    TheFooter
   },
   data() {
     return {
-      products
     }
   }
 }
 </script>
-
-<style scoped>
-</style>
