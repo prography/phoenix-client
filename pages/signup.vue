@@ -38,10 +38,11 @@
             hide-details
           />
           <br>
-          <v-btn block color="primary" :disabled="!eula || !privacy" flat>Create New Accout</v-btn>
+          <v-btn block color="primary" :disabled="!eula || !privacy" flat>Create an Accout</v-btn>
           <v-btn block flat href="/login">or, Login</v-btn>
         </v-card-text>
       </v-card>
+      <p class="copyright">&copy; 2019 <span class="name">Phoenix@Prography</span>. All rights reserved.</p>
     </v-flex>
   </v-layout>
 </template>
@@ -110,6 +111,16 @@ export default {
   display: inline-block;
   width: 16px;
   margin-left: -16px;
+}
+
+.copyright {
+  margin: 32px 0;
+  text-align: center;
+}
+
+.copyright .name {
+  color: #ff6f61;
+  font-weight: 500;
 }
 </style>
 

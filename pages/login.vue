@@ -18,6 +18,7 @@
           <v-btn color="primary" block flat>Login</v-btn>
         </v-card-text>
       </v-card>
+      <p class="copyright">&copy; 2019 <span class="name">Phoenix@Prography</span>. All rights reserved.</p>
     </v-flex>
   </v-layout>
 </template>
@@ -44,5 +45,15 @@ export default {
   margin: 0 auto;
   padding: 64px 0 32px;
   text-align: center;
+}
+
+.copyright {
+  margin: 32px 0;
+  text-align: center;
+}
+
+.copyright .name {
+  color: #ff6f61;
+  font-weight: 500;
 }
 </style>
